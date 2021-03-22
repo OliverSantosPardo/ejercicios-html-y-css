@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio HTML 1</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <form action="">
+    <fieldset>
+      <legend>Datos personales</legend>
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" id="nombre" required autofocus>
+      <label for="email"> Correo electrónico:</label>
+      <input type="email" name="email" id="email" required>
+      <label for="url">URL</label>
+      <input type="url" name="url" id="url" placeholder="Escribe la URL de tu página web personal.">
+    </fieldset>
+    <fieldset>
+      <legend>Fecha y hora</legend>
+      <label for="fecha">Fecha:</label>
+      <input type="date"name="fecha" id="fecha">
+      <label for="hora">Hora:</label>
+      <input type="time" name="hora" id="hora">
+      <label for="fecha y hora">Fecha y hora:</label>
+      <input type="datetime" name="fecha y hora" id="fecha y hora">
+      <label for="mes">Mes:</label>
+      <input type="month" name="mes" id="mes">
+      <label for="semana">Semana:</label>
+      <input type="week" name="semana" id="semana">
+    </fieldset>
+    <fieldset>
+      <legend>otros datos</legend>
+      <label for="numero">Numero:</label>
+      <input type="number" name="numero" min="-10" max="10">
+      <label for="telefono">Numero de telefono:</label>
+      <input type="tel"  value="654546645" readonly>
+      <label for="busqueda">Termino de búsqueda</label>
+      <input type="search" name="busqueda" id="busqueda" disabled>
+      <label for="color">Color favorito:</label>
+      <input type="color" name="color" id="color" list="colores">
+    </fieldset>
+    <button>Enviar</button>
+  </form>
+
+</body>
+
+</html>

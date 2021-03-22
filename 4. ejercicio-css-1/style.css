@@ -1,0 +1,45 @@
+
+/* primera lista */
+
+/* primera parte */
+body ul:first-of-type li:last-of-type {
+    background-color: rgb(114, 147, 190);
+}
+/* segunda parte */
+body ul:first-of-type li:nth-of-type(odd){
+    text-decoration: underline;
+    text-decoration-color: green;
+}
+
+/* tercera parte */
+body ul:first-of-type {
+    display: flex;
+}
+body ul:first-of-type li {
+    margin: 5px;
+}
+
+/* cuarta parte */
+body ul:first-of-type li::after {
+    content: "😆";
+    font-size: 1rem;
+}
+
+
+/* quinta parte */
+li:lang(en){
+    font-size: 200%;
+    text-transform: uppercase;
+}
+
+/* segunda lista */
+
+body ul#provincias li {
+    list-style-type: lower-roman;
+}
+body ul#provincias li:nth-child(2){
+    list-style-type: none;
+}
+body ul#provincias li:nth-child(2)::after {
+    content: " ii.";
+}

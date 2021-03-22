@@ -1,0 +1,39 @@
+/* parte 1 */
+body{
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    max-width: 800px;
+    min-width: 400px;
+}
+
+/* parte 2 */
+input#nombre, input#email {
+    border-color: red;
+}
+
+/* parte 3 */
+fieldset {
+    background-color: rgb(211, 208, 208);
+    padding: 1rem;
+}
+
+/*  parte 4 */
+fieldset:hover {
+    background-color: rgb(77, 73, 73);
+}
+
+/* parte 5 */
+fieldset:first-of-type, fieldset:last-of-type {
+    border-bottom-color: black;
+    border-bottom-width: 5px;
+}
+
+/* parte 6 */
+button{
+    background-color: black;
+    color: white;
+    border: none
+}
